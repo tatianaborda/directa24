@@ -5,7 +5,7 @@ This is a movie app built with Springboot. It provides various endpoints to quer
 
 ## Features
 - **Main Endpoint**:
-  - `GET /api/directors`: Allows querying information about directors and the movies they have directed. This endpoint requires a **request parameter** `threshold` (an integer) to filter directors based on the number of movies they have directed. For example, if you set the `threshold` parameter to `5`, it will return directors who have directed 5 or more movies.
+  - `GET /api/directors`: Allows querying information about directors and the movies they have directed. This endpoint requires a **request parameter** `threshold` (an integer) to filter directors based on the number of movies they have directed. For example, if you set the `threshold` parameter to `5`, it will return directors who have directed more than 5 movies.
   
   **Request Parameter**:
   - `threshold`: An integer value used to filter directors based on the number of movies they have directed.
