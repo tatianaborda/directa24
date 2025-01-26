@@ -33,7 +33,7 @@ This is a movie app built with Springboot. It provides various endpoints to quer
 1. Clone this repository:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/tatianaborda/directa24.git
     ```
 
 2. Navigate to the project folder:
